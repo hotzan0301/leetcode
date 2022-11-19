@@ -5,6 +5,3 @@ def isPowerOfTwo(n: int) -> bool:
     if n == 1 or (math.log2(n) * 10 % 10) == 0.0:
         return True
     return False
-
-if __name__ == '__main__':
-    print(isPowerOfTwo(0))
